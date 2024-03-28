@@ -1,0 +1,11 @@
+motor_driver.cpp:3:6:void MotorDriver::init(UART_HandleTypeDef*, UART_HandleTypeDef*)	48	static
+motor_driver.cpp:144:6:void MotorDriver::makeData(uint8_t*, uint8_t, uint8_t, uint8_t*, uint16_t, uint16_t)	32	static
+motor_driver.cpp:158:6:bool MotorDriver::readEncoder(int32_t&, int32_t&)	64	static
+motor_driver.cpp:191:6:bool MotorDriver::writeVelocity(int64_t, int64_t)	64	static
+motor_driver.cpp:220:6:bool MotorDriver::controlMotor(float, float, float*)	56	static
+motor_driver.cpp:239:16:short unsigned int MotorDriver::updateCRC(uint16_t, uint8_t*, uint16_t)	32	static
+motor_driver.cpp:290:6:void MotorDriver::addStuffing(uint8_t*)	40	static
+motor_driver.cpp:336:6:void MotorDriver::removeStuffing(uint8_t*)	32	static
+motor_driver.cpp:359:5:int MotorDriver::txPacket(uint8_t*, uint8_t*)	40	static
+motor_driver.cpp:402:5:int MotorDriver::rxPacket(uint8_t*, uint8_t*)	24	static
+motor_driver.cpp:509:5:int MotorDriver::txRxPacket(uint8_t*, uint8_t*, uint8_t*, uint8_t*)	32	static

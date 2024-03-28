@@ -1,0 +1,20 @@
+imu_driver.h:48:14:void ImuDriver::MPU9250_OnActivate()	16	static
+imu_driver.cpp:89:6:void ImuDriver::imu_init(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	24	static
+imu_driver.cpp:96:13:void MPU9250_OnActivate()	4	static
+imu_driver.cpp:97:13:void ImuDriver::MPU9250_Activate()	16	static
+imu_driver.cpp:101:13:void ImuDriver::MPU9250_Deactivate()	16	static
+imu_driver.cpp:104:9:uint8_t ImuDriver::SPI_WriteRead(uint8_t)	32	static
+imu_driver.cpp:111:6:void ImuDriver::MPU_SPI_Write(uint8_t*, uint8_t, uint16_t)	24	static
+imu_driver.cpp:122:6:void ImuDriver::MPU_SPI_Read(uint8_t*, uint8_t, uint16_t)	32	static
+imu_driver.cpp:129:6:void ImuDriver::writeRegister(uint8_t, uint8_t)	16	static
+imu_driver.cpp:133:6:void ImuDriver::readRegisters(uint8_t, uint8_t, uint8_t*)	24	static
+imu_driver.cpp:136:6:void ImuDriver::writeAK8963Register(uint8_t, uint8_t)	16	static
+imu_driver.cpp:152:6:void ImuDriver::readAK8963Registers(uint8_t, uint8_t, uint8_t*)	24	static
+imu_driver.cpp:170:9:uint8_t ImuDriver::whoAmI()	16	static
+imu_driver.cpp:177:5:int ImuDriver::whoAmIAK8963()	16	static
+imu_driver.cpp:183:9:uint8_t ImuDriver::MPU9250_Init()	24	static
+imu_driver.cpp:277:6:void ImuDriver::MPU9250_SetAccelRange(AccelRange)	16	static
+imu_driver.cpp:283:6:void ImuDriver::MPU9250_SetGyroRange(GyroRange)	16	static
+imu_driver.cpp:287:6:void ImuDriver::MPU9250_SetSampleRateDivider(SampleRateDivider)	16	static
+imu_driver.cpp:329:6:void ImuDriver::MPU9250_SetDLPFBandwidth(DLPFBandwidth)	16	static
+imu_driver.cpp:337:6:void ImuDriver::MPU9250_GetData(int16_t*, int16_t*, int16_t*)	32	static
