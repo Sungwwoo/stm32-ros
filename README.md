@@ -1,5 +1,2 @@
-# stm32-ros
+# 종합설계 ROS 모바일 로봇 stm32 cube ide 프로젝트
 
-stm32 cube ide 프로젝트
-
-최종본 날아가서 올려두는 미완성본임
